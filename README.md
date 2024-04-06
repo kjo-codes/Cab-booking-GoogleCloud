@@ -2,7 +2,8 @@
 
 # Cab Booking System
 
-![Cab Booking System](https://imgur.com/a/AXJkXj5)
+![Image Description](cbs.png)
+
 
 ## Overview
 This project is a cab booking system designed to facilitate efficient cab booking and management. It utilizes various Google Cloud services for seamless deployment, scalability, and maintenance.
