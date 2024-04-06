@@ -1,0 +1,5 @@
+runtime: python39  # or whichever Python version your Flask app requires
+
+handlers:
+- url: /.*
+  script: auto

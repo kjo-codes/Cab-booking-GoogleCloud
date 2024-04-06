@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cab Booking System</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://cdn.jsdelivr.net/gh/somanchiu/Keyless-Google-Maps-API@v6.6/mapsJavaScriptAPI.js">
+
+        async defer ></script>
+    <style>
+        #map {
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Cab Booking System</h1>
+    <div id="map"></div>
+    <!-- Rest of the HTML content -->
+    <form id="booking-form">
+        <label for="pickup">Pickup Location:</label>
+        <input type="text" id="pickup" name="pickup" required><br><br>
+
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" name="destination" required><br><br>
+
+        <button type="button" onclick="findLocation()">Find Location</button>
+    </form>
+    <script src="app.js"></script>
+</body>
+
+</html>
